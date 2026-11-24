@@ -1,5 +1,3 @@
-import javax.swing.text.html.HTMLDocument;
-
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 void main() {
@@ -36,7 +34,7 @@ void main() {
     num.removeAll(hs1);
     System.out.println("remove all the data of another HashSet : "+num);**/
     //union
-    HashSet num1 = new HashSet();
+   /** HashSet num1 = new HashSet();
     num1.add(1);
     num1.add(2);
     num1.add(3);
@@ -55,5 +53,18 @@ void main() {
     System.out.println(num1);
     //difference
     num1.removeAll(num2);//remove all the difference
-    System.out.println(num1);
+    System.out.println(num1);**/
+  /** CityHashset c1 = new CityHashset();
+   c1.addcity();
+   c1.print();
+   System.out.println( "| ur size is : "+c1.size());
+   System.out.println(c1.verify("ourghla"));
+ c1.remove("tanja");
+ c1.print();
+   System.out.println(c1.empty());**/
+  NumberHashset n1 = new NumberHashset();
+  n1.addnnum();
+  n1.printlist();
+  n1.trans();
+  n1.printset();
 }
